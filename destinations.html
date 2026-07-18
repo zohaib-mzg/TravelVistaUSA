@@ -13,9 +13,7 @@
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="brand">
-      <span class="brand-mark">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 12L12 2 2 12M12 2v20M6 16l-4-4 4-4M18 16l4-4-4-4"/></svg>
-      </span>
+      <span class="brand-mark"><img src="https://i.ibb.co/N6zzWch5/Chat-GPT-Image-Jul-18-2026-08-44-08-AM.png" alt="TravelVista USA logo"></span>
       <span class="brand-name">TravelVista<small>USA &bigstar;&bigstar;&bigstar;</small></span>
     </a>
 
@@ -57,7 +55,7 @@
   <div class="page-hero-panel">
     <span class="eyebrow on-dark">50+ Places, One Country</span>
     <h1>Explore <span class="accent">Destinations</span> Across the USA</h1>
-    <p>From canyon country to coastal towns, every destination here is backed by a real, first-hand travel guide written by someone who's been there.</p>
+    <p>From canyon country to coastal towns, every destination here is backed by a real, first-hand travel guide written by someone who's been there. Tap a card to open its guide.</p>
     <div class="hero-cta">
       <a href="blog.html" class="btn btn-primary">Browse All Guides
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
@@ -69,16 +67,16 @@
 
 <div class="container">
   <div class="filter-bar">
-    <button class="filter-chip active">All</button>
-    <button class="filter-chip">National Parks</button>
-    <button class="filter-chip">Cities</button>
-    <button class="filter-chip">Coastal</button>
-    <button class="filter-chip">Mountains</button>
-    <button class="filter-chip">Desert</button>
+    <button class="filter-chip active" data-filter="all">All</button>
+    <button class="filter-chip" data-filter="National Parks">National Parks</button>
+    <button class="filter-chip" data-filter="Cities">Cities</button>
+    <button class="filter-chip" data-filter="Coastal">Coastal</button>
+    <button class="filter-chip" data-filter="Mountains">Mountains</button>
+    <button class="filter-chip" data-filter="Desert">Desert</button>
   </div>
 
   <div class="dest-grid">
-      <a href="blog.html" class="dest-card">
+      <a href="national-parks-you-must-visit.html" class="dest-card" data-dest-card data-category="National Parks">
         <img src="https://images.unsplash.com/photo-1483412919093-03a22057d0d7?w=700&q=80&auto=format&fit=crop" alt="Grand Canyon, Arizona">
         <div class="dest-info">
           <div class="dest-state">Arizona</div>
@@ -87,7 +85,7 @@
           <div class="dest-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>34 guides</div>
         </div>
       </a>
-      <a href="blog.html" class="dest-card">
+      <a href="pacific-coast-road-trip.html" class="dest-card" data-dest-card data-category="Road Trips">
         <img src="https://images.unsplash.com/photo-1739257599497-e9e1af67abed?w=700&q=80&auto=format&fit=crop" alt="Pacific Coast Highway, California">
         <div class="dest-info">
           <div class="dest-state">California</div>
@@ -96,7 +94,7 @@
           <div class="dest-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>28 guides</div>
         </div>
       </a>
-      <a href="blog.html" class="dest-card">
+      <a href="weekend-getaways-usa.html" class="dest-card" data-dest-card data-category="Cities">
         <img src="https://images.unsplash.com/photo-1718809070379-775da172aff0?w=700&q=80&auto=format&fit=crop" alt="Chicago, Illinois">
         <div class="dest-info">
           <div class="dest-state">Illinois</div>
@@ -105,7 +103,7 @@
           <div class="dest-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>21 guides</div>
         </div>
       </a>
-      <a href="blog.html" class="dest-card">
+      <a href="nyc-48-hours.html" class="dest-card" data-dest-card data-category="Cities">
         <img src="https://images.unsplash.com/photo-1659354408961-d2aaf77f5da9?w=700&q=80&auto=format&fit=crop" alt="New York City, New York">
         <div class="dest-info">
           <div class="dest-state">New York</div>
@@ -114,7 +112,7 @@
           <div class="dest-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>40 guides</div>
         </div>
       </a>
-      <a href="blog.html" class="dest-card">
+      <a href="death-valley-24-hours.html" class="dest-card" data-dest-card data-category="Desert">
         <img src="https://images.unsplash.com/photo-1637172627576-04b8e2e9a02b?w=700&q=80&auto=format&fit=crop" alt="Death Valley, California">
         <div class="dest-info">
           <div class="dest-state">California</div>
@@ -123,7 +121,7 @@
           <div class="dest-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>16 guides</div>
         </div>
       </a>
-      <a href="blog.html" class="dest-card">
+      <a href="backcountry-basics.html" class="dest-card" data-dest-card data-category="Mountains">
         <img src="https://images.unsplash.com/photo-1600672196900-c98c011a0977?w=700&q=80&auto=format&fit=crop" alt="Jasper Backcountry, Rocky Mountains">
         <div class="dest-info">
           <div class="dest-state">Rocky Mountains</div>
@@ -132,7 +130,7 @@
           <div class="dest-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>19 guides</div>
         </div>
       </a>
-      <a href="blog.html" class="dest-card">
+      <a href="gulf-coast-sunsets.html" class="dest-card" data-dest-card data-category="Coastal">
         <img src="https://images.unsplash.com/photo-1759676015346-a2ea5f4a3caa?w=700&q=80&auto=format&fit=crop" alt="Gulf Coast Beaches, Florida">
         <div class="dest-info">
           <div class="dest-state">Florida</div>
@@ -141,7 +139,7 @@
           <div class="dest-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>23 guides</div>
         </div>
       </a>
-      <a href="blog.html" class="dest-card">
+      <a href="budget-southwest-road-trip.html" class="dest-card" data-dest-card data-category="Cities">
         <img src="https://images.unsplash.com/photo-1483412919093-03a22057d0d7?w=700&q=80&auto=format&fit=crop&sat=-40" alt="Austin, Texas">
         <div class="dest-info">
           <div class="dest-state">Texas</div>
@@ -150,7 +148,7 @@
           <div class="dest-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>17 guides</div>
         </div>
       </a>
-      <a href="blog.html" class="dest-card">
+      <a href="national-parks-you-must-visit.html" class="dest-card" data-dest-card data-category="Mountains">
         <img src="https://images.unsplash.com/photo-1600672196900-c98c011a0977?w=700&q=80&auto=format&fit=crop&sat=10" alt="Grand Teton, Wyoming">
         <div class="dest-info">
           <div class="dest-state">Wyoming</div>
@@ -159,6 +157,12 @@
           <div class="dest-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>14 guides</div>
         </div>
       </a>
+  </div>
+
+  <div class="no-results" id="dest-empty-state" style="display:none;margin-top:20px;">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.3-4.3"/></svg>
+    <h4>No destinations in this category yet</h4>
+    <p>Try a different filter, or browse the full journal instead.</p>
   </div>
 </div>
 
@@ -178,15 +182,15 @@
   <div class="footer-top">
     <div class="footer-brand">
       <a href="index.html" class="brand">
-        <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 12L12 2 2 12M12 2v20M6 16l-4-4 4-4M18 16l4-4-4-4"/></svg></span>
+        <span class="brand-mark"><img src="https://i.ibb.co/N6zzWch5/Chat-GPT-Image-Jul-18-2026-08-44-08-AM.png" alt="TravelVista USA logo"></span>
         <span class="brand-name">TravelVista<small>USA &bigstar;&bigstar;&bigstar;</small></span>
       </a>
       <p>Your guide to unforgettable journeys across the most stunning destinations in the USA. Written by travelers, for travelers.</p>
       <div class="footer-social">
-        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a>
-        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
-        <a href="#" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9 21c1-3 2-9 2-9m4 0s1 3-1 6c-1.2 1.7-3 2-3 2"/></svg></a>
-        <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+        <a href="https://pinterest.com" target="_blank" rel="noopener" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9 21c1-3 2-9 2-9m4 0s1 3-1 6c-1.2 1.7-3 2-3 2"/></svg></a>
+        <a href="https://x.com" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
       </div>
     </div>
     <div class="footer-col">
@@ -204,7 +208,7 @@
         <li><a href="write-for-us.html">Write For Us</a></li>
         <li><a href="contact.html">Advertise With Us</a></li>
         <li><a href="about.html">Careers</a></li>
-        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -220,9 +224,9 @@
     <div class="container">
       <p>&copy; 2026 TravelVista USA. All rights reserved.</p>
       <div class="footer-legal">
-        <a href="#">Terms</a>
-        <a href="#">Privacy</a>
-        <a href="contact.html">Sitemap</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="sitemap.html">Sitemap</a>
       </div>
     </div>
   </div>

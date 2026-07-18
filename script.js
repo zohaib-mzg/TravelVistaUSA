@@ -45,14 +45,34 @@ document.addEventListener('DOMContentLoaded', () => {
     alert(`Searching destinations for: ${dest || 'anywhere'}`);
   });
 
-  // ---- Write For Us submission form ----
+  // ---- Write For Us submission form (submits to Formspree) ----
   const submitForm = document.getElementById('guest-post-form');
   if (submitForm) {
-    submitForm.addEventListener('submit', (e) => {
+    submitForm.addEventListener('submit', async (e) => {
       e.preventDefault();
-      document.getElementById('form-success').classList.add('show');
-      submitForm.reset();
-      document.getElementById('form-success').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      const btn = submitForm.querySelector('button[type="submit"]');
+      const originalBtnHTML = btn.innerHTML;
+      btn.disabled = true;
+      btn.innerHTML = 'Sending…';
+      try {
+        const res = await fetch(submitForm.action, {
+          method: 'POST',
+          body: new FormData(submitForm),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          document.getElementById('form-success').classList.add('show');
+          submitForm.reset();
+          document.getElementById('form-success').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        } else {
+          alert('Sorry, something went wrong sending your pitch. Please try again or email guestposts@travelvistausa.com directly.');
+        }
+      } catch (err) {
+        alert('Sorry, something went wrong sending your pitch. Please try again or email guestposts@travelvistausa.com directly.');
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = originalBtnHTML;
+      }
     });
   }
 
@@ -76,14 +96,34 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // ---- Contact form ----
+  // ---- Contact form (submits to Formspree) ----
   const contactForm = document.getElementById('contact-form');
   if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
+    contactForm.addEventListener('submit', async (e) => {
       e.preventDefault();
-      document.getElementById('contact-success').classList.add('show');
-      contactForm.reset();
-      document.getElementById('contact-success').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      const btn = contactForm.querySelector('button[type="submit"]');
+      const originalBtnHTML = btn.innerHTML;
+      btn.disabled = true;
+      btn.innerHTML = 'Sending…';
+      try {
+        const res = await fetch(contactForm.action, {
+          method: 'POST',
+          body: new FormData(contactForm),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          document.getElementById('contact-success').classList.add('show');
+          contactForm.reset();
+          document.getElementById('contact-success').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        } else {
+          alert('Sorry, something went wrong sending your message. Please try again or email hello@travelvistausa.com directly.');
+        }
+      } catch (err) {
+        alert('Sorry, something went wrong sending your message. Please try again or email hello@travelvistausa.com directly.');
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = originalBtnHTML;
+      }
     });
   }
 

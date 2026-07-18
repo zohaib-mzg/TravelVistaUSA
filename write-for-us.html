@@ -13,9 +13,7 @@
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="brand">
-      <span class="brand-mark">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 12L12 2 2 12M12 2v20M6 16l-4-4 4-4M18 16l4-4-4-4"/></svg>
-      </span>
+      <span class="brand-mark"><img src="https://i.ibb.co/N6zzWch5/Chat-GPT-Image-Jul-18-2026-08-44-08-AM.png" alt="TravelVista USA logo"></span>
       <span class="brand-name">TravelVista<small>USA &bigstar;&bigstar;&bigstar;</small></span>
     </a>
 
@@ -157,22 +155,22 @@
 
       <div class="form-success" id="form-success">Thanks! Your pitch has been sent — we'll be in touch within 48 hours.</div>
 
-      <form id="guest-post-form">
+      <form id="guest-post-form" action="https://formspree.io/f/meeygjql" method="POST">
         <div class="form-row">
           <label for="name">Full name</label>
-          <input id="name" type="text" required placeholder="Jane Doe">
+          <input id="name" name="name" type="text" required placeholder="Jane Doe">
         </div>
         <div class="form-row">
           <label for="email">Email address</label>
-          <input id="email" type="email" required placeholder="jane@example.com">
+          <input id="email" name="email" type="email" required placeholder="jane@example.com">
         </div>
         <div class="form-row">
           <label for="topic">Article topic / working title</label>
-          <input id="topic" type="text" required placeholder="e.g. A Week in the Colorado Rockies">
+          <input id="topic" name="topic" type="text" required placeholder="e.g. A Week in the Colorado Rockies">
         </div>
         <div class="form-row">
           <label for="category">Category</label>
-          <select id="category" required>
+          <select id="category" name="category" required>
             <option value="" disabled selected>Select a category</option>
             <option>Road Trips</option>
             <option>National Parks</option>
@@ -187,11 +185,11 @@
         </div>
         <div class="form-row">
           <label for="samples">Links to writing samples</label>
-          <input id="samples" type="url" placeholder="https://yourblog.com/sample-post">
+          <input id="samples" name="samples" type="url" placeholder="https://yourblog.com/sample-post">
         </div>
         <div class="form-row">
           <label for="message">Pitch summary</label>
-          <textarea id="message" required placeholder="Tell us about the destination, your angle, and why readers will love it."></textarea>
+          <textarea id="message" name="message" required placeholder="Tell us about the destination, your angle, and why readers will love it."></textarea>
         </div>
         <button type="submit" class="btn btn-primary btn-block">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></svg>
@@ -206,15 +204,15 @@
   <div class="footer-top">
     <div class="footer-brand">
       <a href="index.html" class="brand">
-        <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 12L12 2 2 12M12 2v20M6 16l-4-4 4-4M18 16l4-4-4-4"/></svg></span>
+        <span class="brand-mark"><img src="https://i.ibb.co/N6zzWch5/Chat-GPT-Image-Jul-18-2026-08-44-08-AM.png" alt="TravelVista USA logo"></span>
         <span class="brand-name">TravelVista<small>USA &bigstar;&bigstar;&bigstar;</small></span>
       </a>
       <p>Your guide to unforgettable journeys across the most stunning destinations in the USA. Written by travelers, for travelers.</p>
       <div class="footer-social">
-        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a>
-        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
-        <a href="#" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9 21c1-3 2-9 2-9m4 0s1 3-1 6c-1.2 1.7-3 2-3 2"/></svg></a>
-        <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+        <a href="https://pinterest.com" target="_blank" rel="noopener" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9 21c1-3 2-9 2-9m4 0s1 3-1 6c-1.2 1.7-3 2-3 2"/></svg></a>
+        <a href="https://x.com" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
       </div>
     </div>
     <div class="footer-col">
@@ -232,7 +230,7 @@
         <li><a href="write-for-us.html">Write For Us</a></li>
         <li><a href="contact.html">Advertise With Us</a></li>
         <li><a href="about.html">Careers</a></li>
-        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -248,9 +246,9 @@
     <div class="container">
       <p>&copy; 2026 TravelVista USA. All rights reserved.</p>
       <div class="footer-legal">
-        <a href="#">Terms</a>
-        <a href="#">Privacy</a>
-        <a href="contact.html">Sitemap</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="sitemap.html">Sitemap</a>
       </div>
     </div>
   </div>
