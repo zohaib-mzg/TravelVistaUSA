@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://travel-vista-usa.vercel.app/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://travel-vista-usa.vercel.app/about.html</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://travel-vista-usa.vercel.app/contact.html</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
+  <url><loc>https://travel-vista-usa.vercel.app/</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/blog.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/destinations.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/categories.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/pacific-coast-road-trip.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/national-parks-you-must-visit.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/weekend-getaways-usa.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/travel-packing-list.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/nyc-48-hours.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/gulf-coast-sunsets.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/backcountry-basics.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/death-valley-24-hours.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/budget-southwest-road-trip.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/about.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/contact.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/write-for-us.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/privacy.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://travel-vista-usa.vercel.app/terms.html</loc><lastmod>2026-10-18</lastmod></url>
 </urlset>
